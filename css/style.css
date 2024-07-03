@@ -1,0 +1,403 @@
+h1
+    {
+        color:yellow;
+        font-family: Verdana;
+    }
+h2
+    {
+        color:brown;
+    }
+
+h2.merah
+    { 
+        color:red;
+    }
+
+body
+    {
+        background-color:rgb(147, 205, 249);
+    }
+
+
+
+    .logo
+    {
+        width:25%;
+        height:100px;
+        float:left;
+        background-color: gold;
+    }
+
+    .menu
+    {
+        width:75%;
+        height:100px;
+        float:left;
+        background-color: cornflowerblue;
+    }
+
+    .slider
+    {
+        width:100%;
+        height:500px;
+        float:left;
+        background-color: darkkhaki;
+    }
+
+    .box1
+    {
+        width:25%;
+        height:500px;
+        float:left;
+        background-color: bisque;
+    }
+
+    .box2
+    {
+        width:25%;
+        height:500px;
+        float:left;
+        background-color: aquamarine;
+    }
+
+    .box3
+    {
+        width:25%;
+        height:500px;
+        float:left;
+        background-color: azure;
+    }
+
+    .box4
+    {
+        width:25%;
+        height:500px;
+        float:left;
+        background-color: burlywood;
+    }
+
+    .highlight1
+    {
+        width:50%;
+        height:400px;
+        float:left;
+        background-color: cadetblue;
+    }
+
+    .highlight2
+    {
+        width:50%;
+        height:400px;
+        float:left;
+        background-color: blueviolet;
+    }
+
+    .info1
+    {
+        width:20%;
+        height:300px;
+        float:left;
+        background-color: chocolate;
+    }
+
+    .info2
+    {
+        width:20%;
+        height:300px;
+        float:left;
+        background-color: darkgreen;
+    }
+
+    .info3
+    {
+        width:20%;
+        height:300px;
+        float:left;
+        background-color: darkslateblue;
+    }
+
+    .info4
+    {
+        width:20%;
+        height:300px;
+        float:left;
+        background-color: fuchsia;
+    }
+
+    .info5
+    {
+        width:20%;
+        height:300px;
+        float:left;
+        background-color: hotpink;
+    }
+
+    .footer
+    {
+        width:100%;
+        height:100px;
+        float:left;
+        background-color: deepskyblue;
+    }
+
+    table,tr,td,th
+    {
+        border:1px solid black;
+        border-collapse: collapse;
+        padding:5px;
+    }
+
+    tr
+    {
+        background-color: burlywood;
+    }
+
+    th
+    { 
+        background-color:cadetblue;
+        color:rgb(0, 33, 100);
+    }
+
+    tr:nth-child(even)
+    {
+        background-color: darkorchid;
+    }
+
+    tr:hover
+    {
+        background-color: rgb(255, 0, 0);
+    }
+
+    nav
+    {
+        display: flex;
+        width: 50%;
+        font-family: sans-serif;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        justify-content: space-between ;
+        float: right;
+        margin-right: 5%;
+    
+    }
+
+    .nav1
+    {
+        display: flex;
+        width: 20%;
+        font-family: sans-serif;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        justify-content: space-between ;
+        float: left;
+        margin-left: 90%;
+    
+    }
+
+
+    a
+    {
+        text-decoration: none;
+        margin-right: 20px 20px;
+        font-weight: bold;
+    }
+
+   
+
+    a:hover{color: red;}
+
+
+
+    /*slideshow*/
+
+    *
+    {
+        box-sizing: border-box;
+    }
+
+.slideshow-container
+    { 
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+
+.mySlides
+    {
+        display: none;
+        
+    }
+
+    /* prev & next button */
+
+.prev, .next
+    {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding-left: 15px;
+        margin-top: -20px;
+        color: beige;
+        transform: 0.5s;
+        font-size: 20px;
+        font-weight: bold;
+        user-select: none;
+        border-radius: 0 3px 3px 0;
+    }
+
+    /*positioning next button to the right*/
+
+.next
+    {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+.prev:hover, next:hover
+    {
+        background-color: black;
+    }
+
+    /*dots or bullet*/
+
+.dot 
+    {
+        cursor: pointer;
+        background-color: black;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        margin-top: 20px;
+        display: inline-block;
+        transition: background-color 0.5s ease;
+    }
+
+    /*caption text*/
+
+.text
+    {
+        color: cornsilk;
+        font-size: 16px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding: 10px 12px;
+    }
+
+    /*slide number*/
+
+.numbertext
+    { 
+        color: blue;
+        font-size: 12px;
+        padding: 10px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+.fade
+{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade
+{ 
+    from {opacity: .4}
+    to {opacity: 1;}
+}
+
+
+.header
+{
+    position: relative;
+    width:100%;
+    height:15px;
+}
+
+.details
+{
+    margin-left: 8%;
+    margin-top: 18%;
+}
+
+.details h1
+{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.details p
+{
+    color: darkslategrey;
+    line-height: 22px;
+}
+
+.details a
+{
+    background-color: rgb(0, 0, 0);
+    padding: 20px 70px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 0);
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+.bunga 
+{
+    width: 50px;
+    height: 60px;
+    float: left;
+    margin-left: 5%;
+    padding-top: 10px;
+}
+
+.profile
+{
+    width: 58%;
+    height: 90%;
+    position: absolute;
+    bottom: 2.5%;
+    right: 40px;
+}
+
+
+.program1
+    {
+        width:33.33%;
+        height:100%;
+        float:left;
+        background-color: bisque;
+    }
+
+.program2
+    {
+        width:33.33%;
+        height:100%;
+        float:left;
+        background-color: aquamarine;
+    }
+
+.program3
+    {
+        width:33.33%;
+        height:100%;
+        float:left;
+        background-color: azure;
+    }
+
+.container a
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    justify-content: space-between ; 
+}
+
+
+   
